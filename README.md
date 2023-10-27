@@ -1,3 +1,3 @@
 # Functions-DrawM-and-CalcNorms
-![Gif](https://github.com/RonaldPerez7-7/Functions-DrawM-and-CalcNorms/assets/147276285/243a86b0-3d69-4d64-ad27-ff319509fd98)
+![1026](https://github.com/RonaldPerez7-7/Functions-DrawM-and-CalcNorms/assets/147276285/02498424-e1cc-4f9b-8378-1842ece29d75)
 
