@@ -1,0 +1,4 @@
+D:\UNAL La Paz\Materias\Programacion Avanzada\programas\eje - 04 (Trackball)\Debug\eje4.exe
+C:\Users\ECM\Desktop\PA\eje - 04 (Trackball)\Debug\eje4.exe
+R:\Descargas\Opera GX\OpenGL init\eje - 04 (Trackball)\Debug\eje4.exe
+C:\Users\santi\Documents\UNIVERSIDAD\Programacion_Avanzada\OpenGL\Code clase\GL Code\Debug\eje4.exe
