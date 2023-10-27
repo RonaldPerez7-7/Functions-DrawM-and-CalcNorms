@@ -8,7 +8,7 @@
 #include "trackball.h" //implementacion del Trackball
 //--------------------------
 
-#include "Model.h"
+#include "Model.h"//Libreria hecha por nosostros
 
 //var tiempo
 clock_t start, end;
@@ -43,8 +43,8 @@ float mat_shininess_blanco = 100.0;
 
 
 // Clase MOdel
-Model* P;
-float mat_diff[] = { (float)(255.0/255.0), 127.0 / 255.0, 39.0 / 255.0, 1.0 };
+Model* Pir;
+float mat_diff[] = { (float)(0.0), 1.0, 0.0, 1.0 }; // Color Verde
 
 
 
@@ -76,7 +76,7 @@ void init(void)
 
 
 	// Llamo el contrauctor de la clase
-	P = new Model();
+	Pir = new Model();
 }
 
 void display(void)
@@ -92,7 +92,7 @@ void display(void)
 	// esfera 1
 	
 	glPushMatrix();
-	P->DrawM(mat_diff);
+	Pir -> DrawM(mat_diff);
 	glPopMatrix();
 
 	glPopMatrix(); //fin push 0
@@ -131,7 +131,7 @@ void keyboard(unsigned char key, int x, int y)
    {
 	 double dif;
    case 27: 
-	   delete P;
+	   delete Pir;
 	   exit(0);	
 	   break;
 

@@ -65,7 +65,7 @@ void Model::DrawM() {
 	glEnd();
 }
 
-void Model::CalcNormV(double a[3], double b[3], double c[3], double N[3])
+void Model::CalcNormF(double a[3], double b[3], double c[3], double N[3])
 {
 	double Vab[3], Vac[3], norm;
 
@@ -87,6 +87,6 @@ void Model::CalcNormV(double a[3], double b[3], double c[3], double N[3])
 
 void Model::CalcNorms() {
 	for (int i = 0; i < nface; i++) {
-		CalcNormV(V[F[i].tri[0]].ver, V[F[i].tri[1]].ver, V[F[i].tri[2]].ver, F[i].N);
+		CalcNormF(V[F[i].tri[0]].ver, V[F[i].tri[1]].ver, V[F[i].tri[2]].ver, F[i].N); //Reutilizamos la función CalcNormF
 	}
 }

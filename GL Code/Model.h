@@ -25,7 +25,7 @@ public:
 	void DrawM(float diff[4]);
 
 private:
-	void CalcNormV(double a[3], double b[3], double c[3], double N[3]);
+	void CalcNormF(double a[3], double b[3], double c[3], double N[3]);
 	void CalcNorms();
 
 };
